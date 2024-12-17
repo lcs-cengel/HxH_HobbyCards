@@ -9,7 +9,29 @@ import SwiftUI
 
 struct WholeCustomShape: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        CustomShape()
+            .overlay(alignment: .leading){
+                CustomH()
+                    .frame(width: 90)
+                    .padding(.top,160)
+                    .padding(.leading, 30)
+                    .padding(.trailing)
+                    .padding(.bottom, 160)
+                    .foregroundStyle(Color.darkGreen)
+               
+            }
+        
+            .overlay(alignment: .leading){
+                CustomH()
+                    .frame(width: 90)
+                    .padding(.top,160)
+                    .padding(.leading, 283)
+                    .padding(.trailing)
+                    .padding(.bottom, 160)
+                    .foregroundStyle(Color.darkGreen)
+               
+            }
+        
     }
 }
 

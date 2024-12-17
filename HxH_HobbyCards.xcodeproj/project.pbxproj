@@ -12,6 +12,10 @@
 		70EF0C7F2D11BC990000A09D /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0C7A2D11BC990000A09D /* CustomShape.swift */; };
 		70EF0C802D11BC990000A09D /* HxH_HobbyCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0C7B2D11BC990000A09D /* HxH_HobbyCardsApp.swift */; };
 		70EF0C912D11C2B70000A09D /* CustomH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0C902D11C2B70000A09D /* CustomH.swift */; };
+		70EF0C932D11C8A80000A09D /* WholeCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0C922D11C8A80000A09D /* WholeCustomShape.swift */; };
+		70EF0CA42D1209120000A09D /* MainGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0CA32D1209120000A09D /* MainGraphic.swift */; };
+		70EF0CA92D120DCD0000A09D /* VisualCard-Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0CA82D120DCD0000A09D /* VisualCard-Main.swift */; };
+		70EF0CAC2D120EBA0000A09D /* CardDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0CAA2D120EBA0000A09D /* CardDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		70EF0C7A2D11BC990000A09D /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		70EF0C7B2D11BC990000A09D /* HxH_HobbyCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HxH_HobbyCardsApp.swift; sourceTree = "<group>"; };
 		70EF0C902D11C2B70000A09D /* CustomH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomH.swift; sourceTree = "<group>"; };
+		70EF0C922D11C8A80000A09D /* WholeCustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeCustomShape.swift; sourceTree = "<group>"; };
+		70EF0CA32D1209120000A09D /* MainGraphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGraphic.swift; sourceTree = "<group>"; };
+		70EF0CA82D120DCD0000A09D /* VisualCard-Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VisualCard-Main.swift"; sourceTree = "<group>"; };
+		70EF0CAA2D120EBA0000A09D /* CardDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 		70EF0C772D11BC990000A09D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				70EF0CAB2D120EBA0000A09D /* Model */,
 				70EF0C762D11BC990000A09D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -61,7 +70,9 @@
 		70EF0C782D11BC990000A09D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				70EF0CA82D120DCD0000A09D /* VisualCard-Main.swift */,
 				70EF0C7A2D11BC990000A09D /* CustomShape.swift */,
+				70EF0C922D11C8A80000A09D /* WholeCustomShape.swift */,
 				70EF0C902D11C2B70000A09D /* CustomH.swift */,
 			);
 			path = Views;
@@ -74,8 +85,17 @@
 				70EF0C772D11BC990000A09D /* Preview Content */,
 				70EF0C782D11BC990000A09D /* Views */,
 				70EF0C792D11BC990000A09D /* Assets.xcassets */,
+				70EF0CA32D1209120000A09D /* MainGraphic.swift */,
 			);
 			path = HxH_HobbyCards;
+			sourceTree = "<group>";
+		};
+		70EF0CAB2D120EBA0000A09D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70EF0CAA2D120EBA0000A09D /* CardDisplay.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70EF0CA92D120DCD0000A09D /* VisualCard-Main.swift in Sources */,
+				70EF0C932D11C8A80000A09D /* WholeCustomShape.swift in Sources */,
 				70EF0C7F2D11BC990000A09D /* CustomShape.swift in Sources */,
 				70EF0C802D11BC990000A09D /* HxH_HobbyCardsApp.swift in Sources */,
+				70EF0CA42D1209120000A09D /* MainGraphic.swift in Sources */,
+				70EF0CAC2D120EBA0000A09D /* CardDisplay.swift in Sources */,
 				70EF0C912D11C2B70000A09D /* CustomH.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

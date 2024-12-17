@@ -8,11 +8,33 @@
 import SwiftUI
 
 struct VisualCard_Main: View {
+    let CardToShow: CardDisplay
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack {
+                Image(CardToShow.charcterView)
+                    .resizable()
+                   .scaledToFit()
+                  
+                   
+                
+                
+               
+                
+                
+            }
+            .padding()
+        }
+       
+        .navigationTitle(CardToShow.name)
+        .font(.system(size: 20))
+        
+        
     }
+    
 }
 
 #Preview {
-    VisualCard_Main()
+    VisualCard_Main(CardToShow: gon)
 }

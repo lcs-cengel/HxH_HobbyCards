@@ -9,9 +9,15 @@ import SwiftUI
 
 struct MainGraphic: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView{
+            VisualCard_Main(CardToShow: gon)
+            VisualCard_Main(CardToShow: chrollo)
+            VisualCard_Main(CardToShow: meruem)
+        }
+        .tabViewStyle(.page)
     }
-}
+    }
+
 
 #Preview {
     MainGraphic()

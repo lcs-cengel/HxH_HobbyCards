@@ -11,20 +11,20 @@ struct CustomH: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
         
-        path.move(to: CGPoint(x: rect.maxX * 0.125, y: rect.maxY * 0.25))
-        path.addLine(to: CGPoint(x: rect.maxX * 0.1875, y: rect.maxY * 0.25))
-        path.addLine(to: CGPoint(x: rect.maxX * 0.1875, y: rect.maxY * 0.4375))
-        path.addLine(to: CGPoint(x: rect.maxX * 0.3125, y: rect.maxY * 0.4375))
-        path.addLine(to: CGPoint(x: rect.maxX * 0.3125, y: rect.maxY * 0.25))
-        path.addLine(to: CGPoint(x: rect.maxX * 0.375, y: rect.maxY * 0.25))
-        path.addLine(to: CGPoint(x: rect.maxX * 0.375, y: rect.maxY * 0.75))
-        path.addLine(to: CGPoint(x: rect.maxX * 0.3125, y: rect.maxY * 0.75))
-        path.addLine(to: CGPoint(x: rect.maxX * 0.3125, y: rect.maxY * 0.5625))
-        path.addLine(to: CGPoint(x: rect.maxX * 0.18755, y: rect.maxY * 0.5625))
-        path.addLine(to: CGPoint(x: rect.maxX * 0.18755, y: rect.maxY * 0.75))
-        path.addLine(to: CGPoint(x: rect.maxX * 0.3125, y: rect.maxY * 0.75))
-        path.addLine(to: CGPoint(x: rect.maxX * 0.125, y: rect.maxY * 0.75))
-        
+        path.move(to: CGPoint(x: rect.minX, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.maxX * 0.375, y: rect.maxY * 0))
+        path.addLine(to: CGPoint(x: rect.maxX * 0.375, y: rect.maxY * 0.40))
+        path.addLine(to: CGPoint(x: rect.maxX * 0.625, y: rect.maxY * 0.40))
+        path.addLine(to: CGPoint(x: rect.maxX * 0.625, y: rect.maxY * 0))
+        path.addLine(to: CGPoint(x: rect.maxX , y: rect.maxY * 0))
+        path.addLine(to: CGPoint(x: rect.maxX , y: rect.maxY))
+        path.addLine(to: CGPoint(x: rect.maxX * 0.625, y: rect.maxY))
+        path.addLine(to: CGPoint(x: rect.maxX * 0.625,  y: rect.maxY * 0.60))
+        path.addLine(to: CGPoint(x: rect.maxX * 0.375, y: rect.maxY * 0.6))
+        path.addLine(to: CGPoint(x: rect.maxX * 0.375, y: rect.maxY ))
+        path.addLine(to: CGPoint(x: rect.maxX * 0 , y: rect.maxY))
+       
+            
         
         
         
@@ -33,8 +33,12 @@ struct CustomH: Shape {
         
         path.closeSubpath()
         return path
+           
     }
+       
 }
+    
+    
 #Preview {
     CustomH()
 }
