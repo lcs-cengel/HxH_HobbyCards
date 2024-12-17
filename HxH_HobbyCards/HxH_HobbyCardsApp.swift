@@ -11,7 +11,7 @@ import SwiftUI
 struct HxH_HobbyCardsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CustomShape()
         }
     }
 }
