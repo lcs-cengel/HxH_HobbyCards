@@ -11,6 +11,7 @@
 		70EF0C7E2D11BC990000A09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70EF0C792D11BC990000A09D /* Assets.xcassets */; };
 		70EF0C7F2D11BC990000A09D /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0C7A2D11BC990000A09D /* CustomShape.swift */; };
 		70EF0C802D11BC990000A09D /* HxH_HobbyCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0C7B2D11BC990000A09D /* HxH_HobbyCardsApp.swift */; };
+		70EF0C912D11C2B70000A09D /* CustomH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF0C902D11C2B70000A09D /* CustomH.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		70EF0C792D11BC990000A09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70EF0C7A2D11BC990000A09D /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		70EF0C7B2D11BC990000A09D /* HxH_HobbyCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HxH_HobbyCardsApp.swift; sourceTree = "<group>"; };
+		70EF0C902D11C2B70000A09D /* CustomH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomH.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				70EF0C7A2D11BC990000A09D /* CustomShape.swift */,
+				70EF0C902D11C2B70000A09D /* CustomH.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				70EF0C7F2D11BC990000A09D /* CustomShape.swift in Sources */,
 				70EF0C802D11BC990000A09D /* HxH_HobbyCardsApp.swift in Sources */,
+				70EF0C912D11C2B70000A09D /* CustomH.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
