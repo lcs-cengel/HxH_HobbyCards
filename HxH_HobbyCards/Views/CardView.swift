@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct Card: View {
-    let CardToShow: CardDisplay
+struct CardView: View {
+    let CardToShow: Card
     
     var body: some View {
         
@@ -63,5 +63,5 @@ struct Card: View {
 
 
 #Preview {
-    Card(CardToShow: meruem )
+    CardView(CardToShow: meruem )
 }

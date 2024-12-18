@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct MainGraphic: View {
+struct CardTabView: View {
     var body: some View {
         TabView {
-            ForEach(card) { currentCard in
-                Card(CardToShow: currentCard)
+            ForEach(cardsList) { currentCard in
+                CardView(CardToShow: currentCard)
             }
         }
         .ignoresSafeArea()
@@ -20,7 +20,6 @@ struct MainGraphic: View {
     }
 }
 
-
 #Preview {
-    MainGraphic()
+    CardTabView()
 }
