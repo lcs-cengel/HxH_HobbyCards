@@ -11,58 +11,54 @@ struct GonCard: View {
     let CardToShow: CardDisplay
     
     var body: some View {
+        
         ZStack{
-            Color.darkGreen
-                .ignoresSafeArea()
+            ZStack(alignment: .top){
+                Color(CardToShow.colour)
+                    .ignoresSafeArea()
+                WholeCustomShape()
+                
+                //.resizable()
+                // .frame(width: 200, height: 200, alignment: .bottom)
+            }
+            ZStack (alignment: .top){
+                Text(CardToShow.name)
+            }
             ZStack(alignment: .top) {
                 Image(CardToShow.charcterView)
                     .resizable()
                     .scaledToFit()
-                Text(CardToShow.name)
-                    .font(.largeTitle)
+                
             }
-            ZStack(alignment: .bottom){
+            ZStack(alignment: .bottomTrailing){
                 
                 Text(CardToShow.description)
                     .padding(.top, 300)
                     .font(.title3)
                     .fontWeight(.semibold)
                     
-                    .background {
-                               RoundedRectangle(cornerRadius: 12)
-                            .foregroundStyle(.darkGreen)
-                                  // .opacity(0.60)
-                                  // .brightness(-0.3)
-                                   .padding(.top, 300)
+                   
                                   
                            }
                 
             }
            
-            ZStack(alignment: .top){
-                WholeCustomShape()
-                    //.resizable()
-                    .frame(width: 150, height: 150, alignment: .bottom)
-                    
-                
+        
+         
                     
             }
-                
-                
-                
-            
-            .padding()
+              //  .padding()
             
             
         }
-    }
+    
         
       
         
-    }
+    
     
 
 
 #Preview {
-    GonCard(CardToShow: gon)
+    GonCard(CardToShow: hisoka )
 }

@@ -9,12 +9,13 @@ import SwiftUI
 
 struct MainGraphic: View {
     var body: some View {
-        TabView{
+        TabView {
             GonCard(CardToShow: gon)
-            GonCard(CardToShow: chrollo)
+            GonCard(CardToShow: hisoka)
             GonCard(CardToShow: meruem)
         }
         .tabViewStyle(.page)
+        .preferredColorScheme(.dark)
     }
     }
 

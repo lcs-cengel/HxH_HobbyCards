@@ -13,12 +13,13 @@ struct CardDisplay : Identifiable{
     let description : String
     let ranking: String
     let occupation: String
+    let colour: String
 }
 
-let gon = CardDisplay(charcterView: "Gon", name: "Gon Freecs", description: "The lovable protagonist of the series, Gon showcases amazing battlefield adaptability and creativity, as is common with Shonen heroes. His signature ability, Jajanken, is also simple but very strong, allowing him to enhance his fist with Nen in order to achieve a huge power boost, even shaking veteran Hunter Morel.", ranking: "3rd strongest", occupation: "Professional Hunter")
+let gon = CardDisplay(charcterView: "Gon", name: "Gon Freecs", description: " シリーズの愛すべき主人公であるゴンは、驚くべき戦場適応力と創造性を発揮します。", ranking: "3rd strongest", occupation: "Professional Hunter", colour: "DarkGreen")
 
-let meruem = CardDisplay(charcterView: "Merum", name: "Meruem", description: "The King of the Chimera Ants, Meruem is arguably the most powerful character in the series, boasting an incredible amount of Nen and Emitter type capabilities", ranking: "1st Strongest", occupation: "King")
+let meruem = CardDisplay(charcterView: "Merum", name: "Meruem", description: "キメラアントの王メルエムは作中最強のキャラクター", ranking: "1st Strongest", occupation: "King", colour: ".gray")
 
-let chrollo = CardDisplay(charcterView: "Hisoka", name: "Hisoka Morow", description: "s a Hunter and former member #4 of the Phantom Troupe; his physical strength ranked third in the group. He is always in search for strong opponents, and would spare those who have great potential, such as Gon and Killua in order for them to get strong enough to actually challenge him.", ranking: "8th Strongest ", occupation: "Leader of the Phantom Troupe ")
+let hisoka = CardDisplay(charcterView: "Hisoka", name: "Hisoka Morow", description: "ハンターで幻影旅団の元メンバー#4。彼の体力はグループ内で3位だった。", ranking: "8th Strongest ", occupation: "Leader of the Phantom Troupe ", colour: "HisokaPink")
 
-let card = [ gon , meruem , chrollo]
+let card = [ gon , meruem , hisoka]
