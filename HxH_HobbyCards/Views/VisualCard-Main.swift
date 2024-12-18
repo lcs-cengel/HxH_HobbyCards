@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GonCard: View {
+struct Card: View {
     let CardToShow: CardDisplay
     
     var body: some View {
@@ -21,9 +21,7 @@ struct GonCard: View {
                 //.resizable()
                 // .frame(width: 200, height: 200, alignment: .bottom)
             }
-            ZStack (alignment: .top){
-                Text(CardToShow.name)
-            }
+          
             ZStack(alignment: .top) {
                 Image(CardToShow.charcterView)
                     .resizable()
@@ -36,7 +34,11 @@ struct GonCard: View {
                     .padding(.top, 300)
                     .font(.title3)
                     .fontWeight(.semibold)
-                    
+            }
+            ZStack (alignment: .bottom){
+                    Text(CardToShow.name)
+                        .font(.system(.largeTitle, design: .default, weight: .bold))
+                
                    
                                   
                            }
@@ -60,5 +62,5 @@ struct GonCard: View {
 
 
 #Preview {
-    GonCard(CardToShow: hisoka )
+    Card(CardToShow: meruem )
 }

@@ -10,14 +10,13 @@ import SwiftUI
 struct MainGraphic: View {
     var body: some View {
         TabView {
-            GonCard(CardToShow: gon)
-            GonCard(CardToShow: hisoka)
-            GonCard(CardToShow: meruem)
+            ForEach(card) { currentCard in Card(CardToShow: currentCard)}
         }
+        .ignoresSafeArea()
         .tabViewStyle(.page)
         .preferredColorScheme(.dark)
     }
-    }
+}
 
 
 #Preview {
