@@ -34,6 +34,7 @@ struct Card: View {
                     .padding(.top, 300)
                     .font(.title3)
                     .fontWeight(.semibold)
+                   
             }
             ZStack (alignment: .bottom){
                     Text(CardToShow.name)

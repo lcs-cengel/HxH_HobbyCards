@@ -10,7 +10,9 @@ import SwiftUI
 struct MainGraphic: View {
     var body: some View {
         TabView {
-            ForEach(card) { currentCard in Card(CardToShow: currentCard)}
+            ForEach(card) { currentCard in
+                Card(CardToShow: currentCard)
+            }
         }
         .ignoresSafeArea()
         .tabViewStyle(.page)
