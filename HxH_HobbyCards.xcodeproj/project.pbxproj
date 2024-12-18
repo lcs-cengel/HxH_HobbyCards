@@ -70,6 +70,7 @@
 		70EF0C782D11BC990000A09D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				70EF0CA32D1209120000A09D /* MainGraphic.swift */,
 				70EF0CA82D120DCD0000A09D /* VisualCard-Main.swift */,
 				70EF0C7A2D11BC990000A09D /* CustomShape.swift */,
 				70EF0C922D11C8A80000A09D /* WholeCustomShape.swift */,
@@ -85,7 +86,6 @@
 				70EF0C772D11BC990000A09D /* Preview Content */,
 				70EF0C782D11BC990000A09D /* Views */,
 				70EF0C792D11BC990000A09D /* Assets.xcassets */,
-				70EF0CA32D1209120000A09D /* MainGraphic.swift */,
 			);
 			path = HxH_HobbyCards;
 			sourceTree = "<group>";

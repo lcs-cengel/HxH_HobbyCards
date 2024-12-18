@@ -10,9 +10,9 @@ import SwiftUI
 struct MainGraphic: View {
     var body: some View {
         TabView{
-            VisualCard_Main(CardToShow: gon)
-            VisualCard_Main(CardToShow: chrollo)
-            VisualCard_Main(CardToShow: meruem)
+            GonCard(CardToShow: gon)
+            GonCard(CardToShow: chrollo)
+            GonCard(CardToShow: meruem)
         }
         .tabViewStyle(.page)
     }

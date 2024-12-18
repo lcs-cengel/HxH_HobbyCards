@@ -17,7 +17,7 @@ struct WholeCustomShape: View {
                     .padding(.leading, 30)
                     .padding(.trailing)
                     .padding(.bottom, 160)
-                    .foregroundStyle(Color.darkGreen)
+                    .foregroundStyle(Color.lightGreen)
                
             }
         
@@ -28,7 +28,7 @@ struct WholeCustomShape: View {
                     .padding(.leading, 283)
                     .padding(.trailing)
                     .padding(.bottom, 160)
-                    .foregroundStyle(Color.darkGreen)
+                    .foregroundStyle(Color.lightGreen)
                
             }
         
